@@ -1,0 +1,429 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Scope}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Notation; central data structures}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Monograph production concepts and reproducible research}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Usage suggestions; reader contributions}{4}{section.1.4}
+\contentsline {part}{I\hspace {1em}Preprocessing data from genomic experiments}{5}{part.1}
+\contentsline {chapter}{\numberline {2}Preprocessing overview}{7}{chapter.2}
+\contentsline {author}{Wolfgang Huber, Rafael Irizarry, Robert Gentleman}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Tasks}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Prerequisites}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Stepwise and integrated approaches}{10}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Data structures}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Data sources}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Facilities in R and Bioconductor}{13}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Statistical background}{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}An error model}{16}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The variance-bias trade off}{18}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Sensitivity and specificity of probes}{18}{section.2.4}
+\contentsline {chapter}{\numberline {3}Preprocessing Affymetrix Data}{19}{chapter.3}
+\contentsline {author}{Benjamin M. Bolstad, Rafael A. Irizarry, Laurent Gautier, Zhijin Wu}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Probes and Probesets}{20}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Chip Manufacturing Process}{21}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Sample Preparation and Hybridization}{22}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Image Quantification}{23}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Reading raw data}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Examining probe-level data}{25}{section.3.3}
+\contentsline {section}{\numberline {3.4}Preprocessing}{29}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Background correction}{29}{subsection.3.4.1}
+\contentsline {subsubsection}{RMA convolution background}{29}{section*.8}
+\contentsline {subsubsection}{MAS 5.0 background}{30}{section*.9}
+\contentsline {subsubsection}{Ideal Mismatch}{31}{section*.10}
+\contentsline {subsection}{\numberline {3.4.2}Normalization}{31}{subsection.3.4.2}
+\contentsline {subsubsection}{Scaling}{32}{section*.11}
+\contentsline {subsubsection}{Non-linear methods}{32}{section*.12}
+\contentsline {subsubsection}{Quantile}{33}{section*.13}
+\contentsline {subsubsection}{Cyclic Loess}{34}{section*.14}
+\contentsline {subsubsection}{Contrast}{35}{section*.15}
+\contentsline {subsubsection}{vsn}{37}{section*.16}
+\contentsline {section}{\numberline {3.5}Computing Expression measures}{38}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}expresso}{38}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}threestep}{39}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}rma}{40}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}gcrma}{40}{subsection.3.5.4}
+\contentsline {subsubsection}{Affinity}{41}{section*.17}
+\contentsline {subsubsection}{model}{41}{section*.18}
+\contentsline {subsubsection}{Parameter Estimation}{42}{section*.19}
+\contentsline {subsubsection}{Example}{42}{section*.20}
+\contentsline {subsection}{\numberline {3.5.5}affypdnn}{43}{subsection.3.5.5}
+\contentsline {section}{\numberline {3.6}Comparing Expression measures using {\textsf {affycomp}}}{45}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Carrying Out The Assessment}{46}{subsection.3.6.1}
+\contentsline {section}{\numberline {3.7}Conclusions}{51}{section.3.7}
+\contentsline {chapter}{\numberline {4}Quality Control of Affymetrix GeneChip data}{53}{chapter.4}
+\contentsline {author}{Benjamin M. Bolstad, Francois Collin, Julia Brettschneider, Ken Simpson, Leslie Cope, Rafael Irizarry, Terence P. Speed}{53}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{53}{section.4.1}
+\contentsline {section}{\numberline {4.2}Exploratory Analysis}{54}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Multi-array Approaches}{55}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}RNA Degradation}{57}{section.4.3}
+\contentsline {section}{\numberline {4.4}Probe Level Models}{60}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Quality Diagnostics using PLM}{61}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Conclusion}{65}{section.4.5}
+\contentsline {chapter}{\numberline {5}Pre-processing for two-color spotted arrays}{67}{chapter.5}
+\contentsline {author}{Yee Hwa (Jean) Yang}{67}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{67}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Background on two-color spotted microarrays}{67}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Case study: Integrin $\beta 7$ microarray experiment}{68}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}A quick start guide}{69}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Data Input : image analysis}{70}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Reading target information}{71}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Reading probes related information}{72}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Reading gene-expression data}{73}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Accessing the data}{73}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Quality assessment}{75}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Diagnostic plots}{75}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Spatial plots of spot statistics - {\tt image}}{77}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Boxplots of spot statistics - {\tt boxplot}}{78}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Scatter-plots of spot statistics - {\tt plot}}{79}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Normalization}{81}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Two-channel normalization}{81}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Single-channel normalization}{83}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}Cell-based assays}{87}{chapter.6}
+\contentsline {author}{Wolfgang Huber and Florian Hahne}{87}{chapter.6}
+\contentsline {paragraph}{Abstract}{87}{section*.21}
+\contentsline {section}{\numberline {6.1}Technologies}{87}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Expression assays}{87}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Loss of function assays}{88}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Monitoring the response}{88}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Reading data}{89}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Plate reader data}{89}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}FCS format}{92}{subsection.6.2.2}
+\contentsline {subsubsection}{Storage and performance considerations}{94}{section*.22}
+\contentsline {section}{\numberline {6.3}Quality control and visualization}{95}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Visualization at the level of individual cells}{96}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Visualization at the level of microtitre plates}{99}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Brushing with Rggobi}{100}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Detection of effectors}{100}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Discrete Response}{101}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Continuous Response}{104}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Outlook}{106}{subsection.6.4.3}
+\contentsline {chapter}{\numberline {7}SELDI-TOF MS Protein Data}{107}{chapter.7}
+\contentsline {author}{X. Li, R. Gentleman, X. Lu, Q. Shi, J.D. Iglehart, L. Harris and A. Miron}{107}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{107}{section.7.1}
+\contentsline {section}{\numberline {7.2}Baseline subtraction}{108}{section.7.2}
+\contentsline {section}{\numberline {7.3}Peak detection}{111}{section.7.3}
+\contentsline {section}{\numberline {7.4}Processing a set of calibration spectra}{112}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Apply baseline subtraction to a set of spectra}{113}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Cutoff Selection}{114}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Renormalize spectra}{115}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}Identify peaks of spectra}{117}{subsection.7.4.4}
+\contentsline {subsection}{\numberline {7.4.5}Quality assessment}{117}{subsection.7.4.5}
+\contentsline {subsection}{\numberline {7.4.6}Get proto-biomarkers}{118}{subsection.7.4.6}
+\contentsline {section}{\numberline {7.5}An example of breast cancer data set}{120}{section.7.5}
+\contentsline {section}{\numberline {7.6}Conclusion}{124}{section.7.6}
+\contentsline {part}{II\hspace {1em}Metadata: biological annotation and visualization}{127}{part.2}
+\contentsline {chapter}{\numberline {8}Overview of Meta-data Resources and Tools in Bioconductor}{129}{chapter.8}
+\contentsline {author}{Vincent Carey and Robert Gentleman}{129}{chapter.8}
+\contentsline {section}{\numberline {8.1}Roadmap of this section}{129}{section.8.1}
+\contentsline {section}{\numberline {8.2}Meta-data resources overview}{131}{section.8.2}
+\contentsline {section}{\numberline {8.3}Bioconductor annotation concepts: Curated persistent packages and web services}{132}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Annotating a platform: {\textsf {hgu95av2}}}{133}{subsection.8.3.1}
+\contentsline {subsubsection}{An Example}{134}{section*.23}
+\contentsline {subsection}{\numberline {8.3.2}Annotating a genome}{135}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}The {\textsf {annotate}} package}{135}{section.8.4}
+\contentsline {section}{\numberline {8.5}The {\textsf {GO}} package and GO references in platform annotation packages}{137}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Basics of working with the {\textsf {GO}} package}{138}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Navigating the hierarchy}{139}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Searching for terms}{139}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Annotation of GO terms to LocusLink sequences; evidence codes}{140}{subsection.8.5.4}
+\contentsline {subsection}{\numberline {8.5.5}The GO graph associated with a term}{142}{subsection.8.5.5}
+\contentsline {section}{\numberline {8.6}Pathway annotation packages: {\textsf {KEGG}} and {\textsf {cMAP}}}{143}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}KEGG}{144}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}cMAP}{145}{subsection.8.6.2}
+\contentsline {subsubsection}{A Case Study}{148}{section*.24}
+\contentsline {section}{\numberline {8.7}Cross-organism annotation: the {\textsf {homology}} package}{150}{section.8.7}
+\contentsline {section}{\numberline {8.8}Annotation for platforms and platform archives: GEO, {\textsf {Resourcerer}}, {\textsf {RMAGEML}}}{152}{section.8.8}
+\contentsline {section}{\numberline {8.9}GUI support for annotation navigation}{152}{section.8.9}
+\contentsline {section}{\numberline {8.10}Discussion}{153}{section.8.10}
+\contentsline {chapter}{\numberline {9}Querying on line resources}{155}{chapter.9}
+\contentsline {author}{V. Carey, D. Temple Lang, J. Gentry, J. Zhang and R. Gentleman}{155}{chapter.9}
+\contentsline {section}{\numberline {9.1}The Tools}{155}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Entrez}{157}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Entrez Examples}{158}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}PubMed}{158}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Accessing PubMed information}{159}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Generating HTML output for your abstracts}{162}{subsection.9.2.2}
+\contentsline {section}{\numberline {9.3}KEGG}{163}{section.9.3}
+\contentsline {section}{\numberline {9.4}Getting Gene Sequence Information}{164}{section.9.4}
+\contentsline {section}{\numberline {9.5}Appendix 1: WWW data interchange concepts}{166}{section.9.5}
+\contentsline {subsection}{\numberline {9.5.1}HTTP concepts}{166}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.5.2}The {\textsf {RCurl}} package}{167}{subsection.9.5.2}
+\contentsline {section}{\numberline {9.6}Appendix 2: Primer on XML processing in R}{168}{section.9.6}
+\contentsline {subsection}{\numberline {9.6.1}DOM style parsing and manipulation}{169}{subsection.9.6.1}
+\contentsline {subsection}{\numberline {9.6.2}Stream-oriented parsing and manipulation}{170}{subsection.9.6.2}
+\contentsline {subsection}{\numberline {9.6.3}SOAP processing in R}{172}{subsection.9.6.3}
+\contentsline {chapter}{\numberline {10}Binding annotation data to analysis reports}{173}{chapter.10}
+\contentsline {author}{Colin A. Smith, Vincent J. Carey, Robert Gentleman}{173}{chapter.10}
+\contentsline {section}{\numberline {10.1}Introduction}{173}{section.10.1}
+\contentsline {section}{\numberline {10.2}Introduction to annaffy}{173}{section.10.2}
+\contentsline {section}{\numberline {10.3}Loading Annotation Data}{174}{section.10.3}
+\contentsline {section}{\numberline {10.4}Linking to Online Databases}{176}{section.10.4}
+\contentsline {section}{\numberline {10.5}Building HTML Pages}{178}{section.10.5}
+\contentsline {subsection}{\numberline {10.5.1}Limiting the Results}{178}{subsection.10.5.1}
+\contentsline {subsection}{\numberline {10.5.2}Annotating the Probes}{179}{subsection.10.5.2}
+\contentsline {subsection}{\numberline {10.5.3}Adding Other Data}{180}{subsection.10.5.3}
+\contentsline {section}{\numberline {10.6}Graphical displays with drill-down functionality}{181}{section.10.6}
+\contentsline {subsection}{\numberline {10.6.1}HTML image maps}{182}{subsection.10.6.1}
+\contentsline {subsection}{\numberline {10.6.2}Scalable Vector Graphics (SVG)}{184}{subsection.10.6.2}
+\contentsline {section}{\numberline {10.7}Searching Metadata}{184}{section.10.7}
+\contentsline {subsection}{\numberline {10.7.1}Text Search}{184}{subsection.10.7.1}
+\contentsline {subsection}{\numberline {10.7.2}Gene Ontology Search}{186}{subsection.10.7.2}
+\contentsline {chapter}{\numberline {11}Visualizing Data}{187}{chapter.11}
+\contentsline {author}{Wolfgang Huber, Xiaochun Li and Robert Gentleman}{187}{chapter.11}
+\contentsline {section}{\numberline {11.1}Introduction}{187}{section.11.1}
+\contentsline {section}{\numberline {11.2}Practicalities}{188}{section.11.2}
+\contentsline {section}{\numberline {11.3}High-volume scatterplots}{189}{section.11.3}
+\contentsline {subsubsection}{A note on performance}{190}{section*.25}
+\contentsline {section}{\numberline {11.4}Heatmaps}{192}{section.11.4}
+\contentsline {subsection}{\numberline {11.4.1}Heatmaps of residuals}{193}{subsection.11.4.1}
+\contentsline {section}{\numberline {11.5}Visualizing Distances}{195}{section.11.5}
+\contentsline {subsection}{\numberline {11.5.1}Cophenetic distances}{197}{subsection.11.5.1}
+\contentsline {subsection}{\numberline {11.5.2}Multidimensional scaling}{199}{subsection.11.5.2}
+\contentsline {section}{\numberline {11.6}Whole Genome Plots}{201}{section.11.6}
+\contentsline {subsection}{\numberline {11.6.1}Cumulative Expression}{206}{subsection.11.6.1}
+\contentsline {subsection}{\numberline {11.6.2}Chromosomal Plotting}{208}{subsection.11.6.2}
+\contentsline {part}{III\hspace {1em}Statistical analysis for genomic experiments}{211}{part.3}
+\contentsline {chapter}{\numberline {12}Distance Measures in DNA Microarray Data Analysis.}{213}{chapter.12}
+\contentsline {author}{ R. Gentleman, B. Ding, S. Dudoit, J. Ibrahim}{213}{chapter.12}
+\contentsline {section}{\numberline {12.1}Introduction}{214}{section.12.1}
+\contentsline {section}{\numberline {12.2}Distances}{215}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Definitions}{215}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}Distances Between Points}{217}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.3}Distances Between Distributions}{218}{subsection.12.2.3}
+\contentsline {subsubsection}{Kullback-Leibler Information}{219}{section*.26}
+\contentsline {subsubsection}{Mutual Information}{220}{section*.27}
+\contentsline {subsubsection}{Practicalities}{220}{section*.28}
+\contentsline {subsection}{\numberline {12.2.4}Experiment Specific Distances Between Genes}{221}{subsection.12.2.4}
+\contentsline {section}{\numberline {12.3}Programming}{222}{section.12.3}
+\contentsline {section}{\numberline {12.4}Microarray Data}{223}{section.12.4}
+\contentsline {subsection}{\numberline {12.4.1}Absolute and Relative Expression Measures}{223}{subsection.12.4.1}
+\contentsline {subsection}{\numberline {12.4.2}The ALL Study}{224}{subsection.12.4.2}
+\contentsline {subsection}{\numberline {12.4.3}Distances and Standardization}{225}{subsection.12.4.3}
+\contentsline {section}{\numberline {12.5}Examples and Simulations}{227}{section.12.5}
+\contentsline {subsection}{\numberline {12.5.1}Adjacency}{228}{subsection.12.5.1}
+\contentsline {subsection}{\numberline {12.5.2}Accessibility}{229}{subsection.12.5.2}
+\contentsline {section}{\numberline {12.6}Discussion}{231}{section.12.6}
+\contentsline {chapter}{\numberline {13}Design and analysis of differential gene expression studies}{235}{chapter.13}
+\contentsline {author}{Denise Scholtens, Anja von Heydebreck}{235}{chapter.13}
+\contentsline {section}{\numberline {13.1}Introduction}{235}{section.13.1}
+\contentsline {section}{\numberline {13.2}Experimental Design}{236}{section.13.2}
+\contentsline {section}{\numberline {13.3}Differential expression analysis}{237}{section.13.3}
+\contentsline {subsection}{\numberline {13.3.1}Example: ALL data}{239}{subsection.13.3.1}
+\contentsline {paragraph}{Non--specific filtering}{241}{section*.29}
+\contentsline {paragraph}{Using Gene Ontology data}{243}{section*.30}
+\contentsline {subsection}{\numberline {13.3.2}Example: Kidney cancer data}{243}{subsection.13.3.2}
+\contentsline {section}{\numberline {13.4}Multifactor experiments}{248}{section.13.4}
+\contentsline {subsection}{\numberline {13.4.1}Example: Estrogen data}{248}{subsection.13.4.1}
+\contentsline {subsubsection}{Describing the Linear Model}{251}{section*.32}
+\contentsline {section}{\numberline {13.5}Conclusions}{256}{section.13.5}
+\contentsline {chapter}{\numberline {14}Cluster Analysis of Genomic Data}{257}{chapter.14}
+\contentsline {author}{Katherine S. Pollard, Mark J. van der Laan}{257}{chapter.14}
+\contentsline {section}{\numberline {14.1}Introduction}{257}{section.14.1}
+\contentsline {section}{\numberline {14.2}Methods}{258}{section.14.2}
+\contentsline {subsection}{\numberline {14.2.1}Overview of clustering algorithms}{258}{subsection.14.2.1}
+\contentsline {subsubsection}{Ingredients of a clustering algorithm}{259}{section*.33}
+\contentsline {subsubsection}{Building sequences of clustering results}{260}{section*.34}
+\contentsline {subsubsection}{Visualizing clustering results}{261}{section*.35}
+\contentsline {subsection}{\numberline {14.2.2}Statistical issues in clustering}{261}{subsection.14.2.2}
+\contentsline {subsection}{\numberline {14.2.3}Bootstrapping the cluster analysis}{262}{subsection.14.2.3}
+\contentsline {subsection}{\numberline {14.2.4}Number of clusters}{263}{subsection.14.2.4}
+\contentsline {subsubsection}{Overview of methods}{263}{section*.36}
+\contentsline {subsubsection}{Median Split Silhouette (MSS)}{264}{section*.37}
+\contentsline {subsection}{\numberline {14.2.5}Software implementation: {\textsf {hopach}}}{266}{subsection.14.2.5}
+\contentsline {subsection}{\numberline {14.2.6}Clustering algorithms available from CRAN}{266}{subsection.14.2.6}
+\contentsline {subsubsection}{HOPACH Algorithm}{266}{section*.38}
+\contentsline {subsubsection}{Labels encoding the history of the tree}{268}{section*.39}
+\contentsline {subsubsection}{Visualization of an ordered distance matrix}{268}{section*.40}
+\contentsline {section}{\numberline {14.3}Applications}{268}{section.14.3}
+\contentsline {subsection}{\numberline {14.3.1}HOPACH Clustering of Genes}{268}{subsection.14.3.1}
+\contentsline {section}{\numberline {14.4}Bootstrap Resampling}{273}{section.14.4}
+\contentsline {section}{\numberline {14.5}HOPACH Clustering of Arrays}{274}{section.14.5}
+\contentsline {section}{\numberline {14.6}Output files}{274}{section.14.6}
+\contentsline {subsection}{\numberline {14.6.1}Gene clustering and bootstrap results table}{274}{subsection.14.6.1}
+\contentsline {subsection}{\numberline {14.6.2}Bootstrap fuzzy clustering in MapleTree}{274}{subsection.14.6.2}
+\contentsline {subsection}{\numberline {14.6.3}HOPACH hierarchical clustering in MapleTree}{275}{subsection.14.6.3}
+\contentsline {chapter}{\numberline {15}Machine learning concepts and tools for statistical genomics}{279}{chapter.15}
+\contentsline {author}{VJ Carey}{279}{chapter.15}
+\contentsline {section}{\numberline {15.1}Introduction}{279}{section.15.1}
+\contentsline {section}{\numberline {15.2}Illustration: two continuous features; decision regions}{280}{section.15.2}
+\contentsline {section}{\numberline {15.3}Methodological issues}{282}{section.15.3}
+\contentsline {subsection}{\numberline {15.3.1}Families of learning methods}{282}{subsection.15.3.1}
+\contentsline {subsubsection}{Linear methods}{283}{section*.41}
+\contentsline {subsubsection}{Nonlinear methods}{283}{section*.42}
+\contentsline {subsubsection}{Regularized methods}{284}{section*.43}
+\contentsline {subsubsection}{Local methods}{284}{section*.44}
+\contentsline {subsubsection}{Tree-structured models}{285}{section*.45}
+\contentsline {subsubsection}{Boosting}{286}{section*.46}
+\contentsline {subsection}{\numberline {15.3.2}Model assessment}{288}{subsection.15.3.2}
+\contentsline {subsubsection}{PAC learning theory}{288}{section*.47}
+\contentsline {subsubsection}{Sample splitting}{289}{section*.48}
+\contentsline {subsubsection}{Bootstrapping and bagging}{290}{section*.49}
+\contentsline {subsection}{\numberline {15.3.3}Metatheorems on learner and feature selection}{290}{subsection.15.3.3}
+\contentsline {subsection}{\numberline {15.3.4}Computing interfaces}{291}{subsection.15.3.4}
+\contentsline {section}{\numberline {15.4}Applications}{293}{section.15.4}
+\contentsline {subsection}{\numberline {15.4.1}Exploring and comparing classifiers with the ALL data}{293}{subsection.15.4.1}
+\contentsline {subsection}{\numberline {15.4.2}Neural net initialization, convergence and tuning}{295}{subsection.15.4.2}
+\contentsline {subsection}{\numberline {15.4.3}Structured cross-validation support}{296}{subsection.15.4.3}
+\contentsline {subsection}{\numberline {15.4.4}Assessing variable importance}{298}{subsection.15.4.4}
+\contentsline {subsection}{\numberline {15.4.5}Expression density diagnostics}{298}{subsection.15.4.5}
+\contentsline {section}{\numberline {15.5}Conclusions}{300}{section.15.5}
+\contentsline {chapter}{\numberline {16}Multiple Testing Procedures and Applications to Genomics}{303}{chapter.16}
+\contentsline {author}{Katherine S. Pollard, Sandrine Dudoit, Mark J. van der Laan}{303}{chapter.16}
+\contentsline {section}{\numberline {16.1}Introduction}{304}{section.16.1}
+\contentsline {subsection}{\numberline {16.1.1}Motivation}{304}{subsection.16.1.1}
+\contentsline {subsection}{\numberline {16.1.2}Outline}{305}{subsection.16.1.2}
+\contentsline {section}{\numberline {16.2}Methods}{306}{section.16.2}
+\contentsline {subsection}{\numberline {16.2.1}Multiple hypothesis testing framework}{306}{subsection.16.2.1}
+\contentsline {subsection}{\numberline {16.2.2}Test statistics null distribution}{311}{subsection.16.2.2}
+\contentsline {subsection}{\numberline {16.2.3}Single-step procedures for control of general Type I error rates $\theta (F_{V_n})$}{314}{subsection.16.2.3}
+\contentsline {subsection}{\numberline {16.2.4}Step-down procedures for control of the family-wise error rate}{315}{subsection.16.2.4}
+\contentsline {subsection}{\numberline {16.2.5}Augmentation multiple testing procedures}{316}{subsection.16.2.5}
+\contentsline {section}{\numberline {16.3}Software implementation: {\textsf {multtest}} package}{318}{section.16.3}
+\contentsline {subsection}{\numberline {16.3.1}Overview}{318}{subsection.16.3.1}
+\contentsline {subsection}{\numberline {16.3.2}Resampling-based multiple testing procedures: {\texttt {MTP}} function}{320}{subsection.16.3.2}
+\contentsline {subsection}{\numberline {16.3.3}Numerical and graphical summaries}{324}{subsection.16.3.3}
+\contentsline {subsection}{\numberline {16.3.4}Software design}{325}{subsection.16.3.4}
+\contentsline {section}{\numberline {16.4}Applications: ALL microarray dataset}{326}{section.16.4}
+\contentsline {subsection}{\numberline {16.4.1}{\textsf {ALL}} data package and initial gene filtering}{326}{subsection.16.4.1}
+\contentsline {subsection}{\numberline {16.4.2}Association of expression measures and cytogenetic test status: two-sample $t$-statistics}{328}{subsection.16.4.2}
+\contentsline {paragraph}{Step-down minP FWER-controlling MTP with two-sample Welch $t$-statistics and bootstrap null distribution}{328}{section*.50}
+\contentsline {paragraph}{Marginal FWER-controlling MTPs with two-sample Welch $t$-statistics and bootstrap null distribution}{333}{section*.51}
+\contentsline {paragraph}{Step-down minP FWER-controlling MTP with two-sample Welch $t$-statistics and permutation null distribution}{334}{section*.52}
+\contentsline {paragraph}{Step-down minP FWER-controlling MTP with robust two-sample $t$-statistics and bootstrap null distribution}{337}{section*.53}
+\contentsline {subsection}{\numberline {16.4.3}Augmentation procedures for gFWER, TPPFP, and FDR control}{338}{subsection.16.4.3}
+\contentsline {paragraph}{gFWER control}{338}{section*.54}
+\contentsline {paragraph}{TPPFP control}{339}{section*.55}
+\contentsline {paragraph}{FDR control}{339}{section*.56}
+\contentsline {subsection}{\numberline {16.4.4}Association of expression measures and tumor molecular subtype: multi-sample $F$-statistics}{340}{subsection.16.4.4}
+\contentsline {subsection}{\numberline {16.4.5}Association of expression measures and time to relapse: Cox $t$-statistics}{343}{subsection.16.4.5}
+\contentsline {section}{\numberline {16.5}Discussion}{347}{section.16.5}
+\contentsline {chapter}{\numberline {17}Computational Inference}{349}{chapter.17}
+\contentsline {author}{Torsten Hothorn, Marcel Dettling, Peter B\"uhlmann}{349}{chapter.17}
+\contentsline {section}{\numberline {17.1}Introduction}{349}{section.17.1}
+\contentsline {subsection}{\numberline {17.1.1}Ensemble Methods}{350}{subsection.17.1.1}
+\contentsline {section}{\numberline {17.2}Bagging \& Random Forests}{350}{section.17.2}
+\contentsline {section}{\numberline {17.3}Boosting}{352}{section.17.3}
+\contentsline {section}{\numberline {17.4}Multiclass Problems }{354}{section.17.4}
+\contentsline {section}{\numberline {17.5}Evaluation }{354}{section.17.5}
+\contentsline {section}{\numberline {17.6}Applications: Tumor Prediction }{356}{section.17.6}
+\contentsline {subsection}{\numberline {17.6.1}Acute Lymphoblastic Leukemia }{356}{subsection.17.6.1}
+\contentsline {subsection}{\numberline {17.6.2}Renal Cell Cancer}{361}{subsection.17.6.2}
+\contentsline {section}{\numberline {17.7}Applications: Survival Analysis }{365}{section.17.7}
+\contentsline {section}{\numberline {17.8}Conclusions}{369}{section.17.8}
+\contentsline {chapter}{\numberline {18}Browser-Based Affymetrix Analysis and Annotation}{371}{chapter.18}
+\contentsline {author}{Colin A. Smith}{371}{chapter.18}
+\contentsline {section}{\numberline {18.1}Introduction to webbioc}{371}{section.18.1}
+\contentsline {subsection}{\numberline {18.1.1}Key Features}{371}{subsection.18.1.1}
+\contentsline {section}{\numberline {18.2}Deploying webbioc}{372}{section.18.2}
+\contentsline {subsection}{\numberline {18.2.1}System Requirements}{372}{subsection.18.2.1}
+\contentsline {subsection}{\numberline {18.2.2}Installation}{373}{subsection.18.2.2}
+\contentsline {subsection}{\numberline {18.2.3}Configuration}{374}{subsection.18.2.3}
+\contentsline {section}{\numberline {18.3}Using webbioc}{376}{section.18.3}
+\contentsline {subsection}{\numberline {18.3.1}Affymetrix Data Preprocessing}{376}{subsection.18.3.1}
+\contentsline {subsection}{\numberline {18.3.2}Differential Expression Multiple Testing}{377}{subsection.18.3.2}
+\contentsline {subsection}{\numberline {18.3.3}Linked Annotation Metadata}{382}{subsection.18.3.3}
+\contentsline {subsection}{\numberline {18.3.4}Retrieving Results}{382}{subsection.18.3.4}
+\contentsline {section}{\numberline {18.4}Extending webbioc}{383}{section.18.4}
+\contentsline {subsection}{\numberline {18.4.1}Architectural Overview}{383}{subsection.18.4.1}
+\contentsline {subsection}{\numberline {18.4.2}Creating a New Module}{385}{subsection.18.4.2}
+\contentsline {part}{IV\hspace {1em}Graphs and networks in bioinformatics}{387}{part.4}
+\contentsline {chapter}{\numberline {19}Introduction and motivating examples}{389}{chapter.19}
+\contentsline {author}{R.Gentleman, W. Huber and V. Carey}{389}{chapter.19}
+\contentsline {section}{\numberline {19.1}Introduction}{389}{section.19.1}
+\contentsline {section}{\numberline {19.2}Practicalities}{390}{section.19.2}
+\contentsline {subsection}{\numberline {19.2.1}Representation}{391}{subsection.19.2.1}
+\contentsline {subsection}{\numberline {19.2.2}Algorithms}{391}{subsection.19.2.2}
+\contentsline {subsection}{\numberline {19.2.3}Data Analysis}{392}{subsection.19.2.3}
+\contentsline {section}{\numberline {19.3}Motivating examples}{392}{section.19.3}
+\contentsline {subsection}{\numberline {19.3.1}Biomolecular Pathways}{392}{subsection.19.3.1}
+\contentsline {subsection}{\numberline {19.3.2}Gene ontology: a graph of concept-terms}{394}{subsection.19.3.2}
+\contentsline {subsection}{\numberline {19.3.3}Graphs induced by literature references and citations}{396}{subsection.19.3.3}
+\contentsline {section}{\numberline {19.4}Discussion}{397}{section.19.4}
+\contentsline {chapter}{\numberline {20}Graphs}{399}{chapter.20}
+\contentsline {author}{V. Carey, R. Gentleman and W. Huber}{399}{chapter.20}
+\contentsline {section}{\numberline {20.1}Overview}{399}{section.20.1}
+\contentsline {section}{\numberline {20.2}Definitions}{400}{section.20.2}
+\contentsline {subsection}{\numberline {20.2.1}Special types of graphs}{403}{subsection.20.2.1}
+\contentsline {subsubsection}{Bipartite Graphs}{403}{section*.57}
+\contentsline {subsubsection}{Hypergraphs}{405}{section*.58}
+\contentsline {subsubsection}{Directed acyclic graphs}{406}{section*.59}
+\contentsline {subsection}{\numberline {20.2.2}Random Graphs}{406}{subsection.20.2.2}
+\contentsline {subsection}{\numberline {20.2.3}Node and Edge Labeling}{407}{subsection.20.2.3}
+\contentsline {subsection}{\numberline {20.2.4}Searching and Related Algorithms}{407}{subsection.20.2.4}
+\contentsline {section}{\numberline {20.3}Cohesive subgroups}{408}{section.20.3}
+\contentsline {subsubsection}{$n$-cliques}{408}{section*.60}
+\contentsline {subsubsection}{$k$-plexes}{408}{section*.61}
+\contentsline {subsubsection}{$k$-core}{409}{section*.62}
+\contentsline {subsubsection}{Within to without comparisons}{409}{section*.63}
+\contentsline {section}{\numberline {20.4}Distances}{409}{section.20.4}
+\contentsline {chapter}{\numberline {21}Bioconductor software for graphs}{411}{chapter.21}
+\contentsline {author}{R Gentleman, W. Huber and VJ Carey}{411}{chapter.21}
+\contentsline {section}{\numberline {21.1}Introduction}{411}{section.21.1}
+\contentsline {section}{\numberline {21.2}The graph package}{412}{section.21.2}
+\contentsline {subsection}{\numberline {21.2.1}Getting Started}{413}{subsection.21.2.1}
+\contentsline {subsection}{\numberline {21.2.2}Random Graphs}{416}{subsection.21.2.2}
+\contentsline {section}{\numberline {21.3}The RBGL Package}{416}{section.21.3}
+\contentsline {subsection}{\numberline {21.3.1}Connected graphs}{417}{subsection.21.3.1}
+\contentsline {subsection}{\numberline {21.3.2}Paths and related concepts}{420}{subsection.21.3.2}
+\contentsline {subsection}{\numberline {21.3.3}Outlook}{424}{subsection.21.3.3}
+\contentsline {section}{\numberline {21.4}Visualizing graphs}{424}{section.21.4}
+\contentsline {subsection}{\numberline {21.4.1}Global attributes}{426}{subsection.21.4.1}
+\contentsline {subsection}{\numberline {21.4.2}Node and edge attributes}{428}{subsection.21.4.2}
+\contentsline {subsection}{\numberline {21.4.3}The function agopen and the Ragraph class}{429}{subsection.21.4.3}
+\contentsline {subsection}{\numberline {21.4.4}User-defined drawing functions}{430}{subsection.21.4.4}
+\contentsline {subsection}{\numberline {21.4.5}Image maps on graphs}{433}{subsection.21.4.5}
+\contentsline {chapter}{\numberline {22}Statistical Models and Methods for Graphs}{435}{chapter.22}
+\contentsline {author}{R Gentleman, W Huber and VJ Carey}{435}{chapter.22}
+\contentsline {section}{\numberline {22.1}Introduction}{435}{section.22.1}
+\contentsline {section}{\numberline {22.2}Tests of Association}{436}{section.22.2}
+\contentsline {subparagraph}{\bf Hypergeometric Testing.}{436}{section*.64}
+\contentsline {subsection}{\numberline {22.2.1}Test Statistics}{437}{subsection.22.2.1}
+\contentsline {subsection}{\numberline {22.2.2}Association in terms of graphs}{439}{subsection.22.2.2}
+\contentsline {subparagraph}{\bf Relationship to Hypergeometric Testing.}{440}{section*.65}
+\contentsline {section}{\numberline {22.3}Affiliation Networks}{442}{section.22.3}
+\contentsline {subsection}{\numberline {22.3.1}Accounting for Sizes}{443}{subsection.22.3.1}
+\contentsline {subsection}{\numberline {22.3.2}Comparisons of Interest}{444}{subsection.22.3.2}
+\contentsline {subsubsection}{Comparing a gene to a list of genes}{444}{section*.66}
+\contentsline {subparagraph}{\bf Logistic regression -- an alternative for event size adjustment.}{445}{section*.67}
+\contentsline {section}{\numberline {22.4}Nodes and Edges}{447}{section.22.4}
+\contentsline {subsection}{\numberline {22.4.1}Centrality}{447}{subsection.22.4.1}
+\contentsline {chapter}{\numberline {23}Case Studies using Graphs on Biological Data}{451}{chapter.23}
+\contentsline {author}{W. Huber, R. Gentleman, D. Scholtens, B. Ding and V.J. Carey}{451}{chapter.23}
+\contentsline {section}{\numberline {23.1}Introduction}{451}{section.23.1}
+\contentsline {section}{\numberline {23.2}Comparing the transcriptome and the interactome}{452}{section.23.2}
+\contentsline {subsection}{\numberline {23.2.1}Testing Associations}{454}{subsection.23.2.1}
+\contentsline {subsection}{\numberline {23.2.2}Data Analysis}{456}{subsection.23.2.2}
+\contentsline {section}{\numberline {23.3}Using GO}{457}{section.23.3}
+\contentsline {subsection}{\numberline {23.3.1}Finding Interesting GO terms}{459}{subsection.23.3.1}
+\contentsline {section}{\numberline {23.4}Literature Co-citation}{462}{section.23.4}
+\contentsline {subsubsection}{\textbf {Examples}}{463}{section*.68}
+\contentsline {paragraph}{Example 1}{463}{section*.69}
+\contentsline {paragraph}{Example 2}{464}{section*.70}
+\contentsline {subsubsection}{\textbf {Application to Gene Lists}}{465}{section*.71}
+\contentsline {section}{\numberline {23.5}Pathways}{468}{section.23.5}
+\contentsline {subsection}{\numberline {23.5.1}The graph structure of pathways}{469}{subsection.23.5.1}
+\contentsline {subsection}{\numberline {23.5.2}Relating Expression data to pathways}{471}{subsection.23.5.2}
+\contentsline {part}{V\hspace {1em}Case studies}{479}{part.5}
+\contentsline {chapter}{\numberline {24}Limma}{481}{chapter.24}
+\contentsline {author}{GKS, abc}{481}{chapter.24}
+\contentsline {chapter}{\numberline {25}Case Study on Microarray Classification}{483}{chapter.25}
+\contentsline {author}{Marcel Dettling, abc}{483}{chapter.25}
+\contentsline {chapter}{\numberline {26}From Cel files to lists of interesting genes}{485}{chapter.26}
+\contentsline {author}{Rafael Irizarry}{485}{chapter.26}
+\contentsline {section}{\numberline {26.1}Introduction}{485}{section.26.1}
+\contentsline {section}{\numberline {26.2}Reading Cel files}{486}{section.26.2}
+\contentsline {section}{\numberline {26.3}Pre-processing}{486}{section.26.3}
+\contentsline {section}{\numberline {26.4}Ranking and filtering genes}{487}{section.26.4}
+\contentsline {subsection}{\numberline {26.4.1}Summary statistics and tests for ranking}{488}{subsection.26.4.1}
+\contentsline {subsection}{\numberline {26.4.2}Selecting cut-offs}{489}{subsection.26.4.2}
+\contentsline {subsection}{\numberline {26.4.3}Comparison}{490}{subsection.26.4.3}
+\contentsline {section}{\numberline {26.5}Annotation}{491}{section.26.5}
+\contentsline {subsection}{\numberline {26.5.1}Pubmed abstracts}{491}{subsection.26.5.1}
+\contentsline {subsection}{\numberline {26.5.2}Generating reports}{493}{subsection.26.5.2}
+\contentsline {section}{\numberline {26.6}Conclusions}{494}{section.26.6}
+\contentsline {chapter}{\numberline {A}Appendix}{499}{appendix.A}
+\contentsline {section}{\numberline {A.1}Data sets}{499}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}ALL}{499}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Renal cell cancer}{499}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Estrogen receptor stimulation}{499}{subsection.A.1.3}
+\contentsline {chapter}{Index}{523}{appendix*.73}

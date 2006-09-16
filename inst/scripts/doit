@@ -1,0 +1,12 @@
+library(reposTools)
+install.packages2(c("factDesign", "estrogen", "ALL", "prada", "facsDorit", "RBGL", "GOstats", 
+	"vsn", 
+	"yeastExpData", "KEGG", "KEGGSOAP", "hgu133a", "hgu95av2", "hgu95av2cdf", 
+	"CoCiteStats", "arrayMagic",
+	"cMAP", "affydata", "PROcess", "e1071", "MLInterfaces", "kidpack", "hopach", "xtable",
+	"SpikeInSubset", "exactRankTests", "LogitBoost", "statmod", "sma", 
+	"limma", "randomForest",
+	"ProData", "ipred", "gbm", "gpls", "pamr", "mlbench", "edd", 
+	"golubEsets", "YEAST", "hgu95av2probe", "hu6800cdf", "mclust",
+	"matchprobes", "hu6800probe", "hexbin", "XML", "annaffy", "humanLLMappings",
+"affyPLM", "multtest", "affypdnn", "gcrma", "affycomp", "arrayQuality"), develOK=TRUE, getAllDeps=TRUE)

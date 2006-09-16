@@ -1,0 +1,74 @@
+
+\documentclass{SVMult6}
+
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{makeidx}     % allows index generation
+\usepackage[authoryear,round]{natbib}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{algorithmic}
+\usepackage{multicol}    % used for the two-column index
+\usepackage{Sweave}
+\usepackage{bcSpring1}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.75}
+\usepackage[%
+baseurl={http://www.bioconductor.org},%
+pdftitle={Bioinformatics and Computational Biology Solutions using R and Bioconductor},%
+pdfauthor={Robert Gentleman, Vince Carey, Sandrine, Dudoit, Rafael Irizarry, Wolfgang Huber},%
+pdfsubject={Bioinformatics},%
+pdfkeywords={Bioconductor},%  next changes per Kimmel
+%pagebackref,bookmarks,colorlinks,linkcolor=darkblue,citecolor=darkblue,%
+colorlinks=false,%
+pagebackref,bookmarks,linkcolor=black,citecolor=black,%
+pagecolor=darkblue,raiselinks,plainpages,pdftex]{hyperref}
+
+
+\newenvironment{smallverbatim}{\small\verbatim}{\endverbatim}
+\hyphenation{Af-f-y-met-rix}
+
+                                                                              
+%% for small figures, histograms, etc.
+\newlength{\smallfigwidth}
+\setlength{\smallfigwidth}{6cm}
+
+
+%\begin{document}
+\pagenumbering{arabic}
+
+
+% etc.
+% see the list of further useful packages
+% in the Reference Guide, Sects. 2.3, 3.1-3.3
+
+\makeindex             % used for the subject index
+                       % please use the style sprmidx.sty with
+                       % your makeindex program
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title{
+Bioinformatics and Computational Biology Solutions
+using R and Bioconductor
+}
+\author{Dr. Strangelove}
+
+\frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% I am commenting the dedication out for now
+%\include{Front/dedic}
+
+
+%\include{Front/pref}
+
+\tableofcontents
+
+\mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\include{Front/Intro}
+
+%\part{Preprocessing data from genomic experiments}
+%\graphicspath{{Preproc/}}
+%\include{Preproc/preprocAll}
