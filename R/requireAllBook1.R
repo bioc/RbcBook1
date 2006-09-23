@@ -1,6 +1,6 @@
 
 .RbcBook1.pkgs = function()
-  c("factDesign", "estrogen", "ALL", "prada", "facsDorit", "RBGL", "GOstats",
+  c("factDesign", "estrogen", "ALL", "ALLMLL", "prada", "facsDorit", "RBGL", "GOstats",
     "vsn", "graph", "Rgraphviz",
      "yeastExpData", "KEGG", "KEGGSOAP", "hgu133a", "hgu95av2", "hgu95av2cdf",
      "CoCiteStats", "arrayMagic", "hgu133acdf", "hgu133bcdf",
