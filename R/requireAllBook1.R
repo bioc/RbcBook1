@@ -1,17 +1,17 @@
 
-.RbcBook1.pkgs = function()
-  c("factDesign", "estrogen", "ALL", "ALLMLL", "prada", "facsDorit", "RBGL", "GOstats",
-    "vsn", "graph", "Rgraphviz",
-     "yeastExpData", "KEGG", "KEGGSOAP", "hgu133a", "hgu95av2", "hgu95av2cdf",
-     "CoCiteStats", "arrayMagic", "hgu133acdf", "hgu133bcdf",
-     "cMAP", "affydata", "PROcess", "e1071", "MLInterfaces", "kidpack", "hopach", "xtable",
-     "SpikeInSubset", "exactRankTests", "LogitBoost", "statmod", "sma", 
-      "limma", "randomForest",
-      "ProData", "ipred", "gbm", "gpls", "pamr", "mlbench", "edd", 
-      "golubEsets", "YEAST", "hgu95av2probe", "hu6800cdf", "mclust",
-      "matchprobes", "hu6800probe", "hexbin", "XML", "annaffy", "humanLLMappings",
-      "affyPLM", "multtest", "affypdnn", "gcrma", "affycomp", "arrayQuality",
-    "convert", "beta7", "bioDist")
+.RbcBook1.pkgs = function() c(
+  "affycomp", "affydata", "affypdnn", "affyPLM", "ALL", "ALLMLL",
+"AnnBuilder", "AmpAffyExample", "annaffy", "arrayMagic",
+"arrayQuality", "beta7", "bioDist", "cMAP", "CoCiteStats", "convert",
+"e1071", "edd", "estrogen", "exactRankTests", "facsDorit",
+"factDesign", "gbm", "gcrma", "golubEsets", "GOstats", "gpls",
+"graph", "hexbin", "hgu133a", "hgu133acdf", "hgu133bcdf", "hgu95av2",
+"hgu95av2cdf", "hgu95av2probe", "hopach", "hu6800cdf", "hu6800probe",
+"humanLLMappings", "ipred", "KEGG", "KEGGSOAP", "kidpack", "limma", "locfit", 
+"LogitBoost", "matchprobes", "mclust", "mlbench", "MLInterfaces",
+"multtest", "pamr", "prada", "PROcess", "ProData", "randomForest",
+"RBGL", "Rgraphviz", "rrcov", "simpleaffy", "sma", "SpikeInSubset", "statmod",
+"vsn", "XML", "xtable", "YEAST", "yeastExpData")
 
 ## install.from.svn = function(madman="../../../madman/Rpacks") {
 ##  pkgs <- .RbcBook1.pkgs 
