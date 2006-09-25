@@ -6,12 +6,11 @@
 \alias{bcr.mi}
 \alias{bcr.spear}
 \alias{bcr.tau}
-\title{illustrative datasets for distance measures  }
-\description{illustrative datasets for distance measures
+\title{Illustrative datasets for distance measures  }
+\description{Illustrative datasets for distance measures
 }
 \usage{
 data(ALL.dist) # all the components live in here
-objects()
 }
 \details{
 These datasets are used in conjunction with the bioDist package
@@ -29,6 +28,7 @@ these are \code{\link[stats]{dist}} objects
 %
 \examples{
 data(ALL.dist)
+objects()
 dim(as.matrix(bcr.cor))
 }
-\keyword{ models }
+\keyword{data}
