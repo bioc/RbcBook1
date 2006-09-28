@@ -6,6 +6,7 @@
 \alias{bcr.mi}
 \alias{bcr.spear}
 \alias{bcr.tau}
+\docType{data}
 \title{Illustrative datasets for distance measures  }
 \description{Illustrative datasets for distance measures
 }
