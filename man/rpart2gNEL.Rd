@@ -10,7 +10,7 @@
 rpart2gNEL(tr, remap=function(x) x, nsep="\n")
 }
 \arguments{
-  \item{tr}{ instance of \code{rpart} class from \code{\link{rpart}} package}
+  \item{tr}{ instance of \code{rpart} class from \code{\link[rpart]{rpart}} package}
   \item{remap}{ function that maps node names in tree to node names in graph}
   \item{nsep}{ token that separates node name and vote tally in the rendering}
 }
