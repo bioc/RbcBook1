@@ -43,7 +43,8 @@ rpart2gNEL <- function(tr, remap=function(x)x, nsep="\n") {
  nds <- fixdu(paste( "(", as.character(r0(an(f$yval2[,2]))),
          ":", as.character(r0(an(f$yval2[,3]))), ")",sep=""))
  nds <- paste(vote, nds, sep=nsep) 
- G <- new("graphNEL", nodes=nds, edgemode="directed")
+ G <- new("graphNEL", nodes=nds)
+ G@graphData$edgemode <- "directed"
 #
 # now we start to derive graph topology
 # a binary enumeration is used in rpart
@@ -64,7 +65,7 @@ rpart2gNEL <- function(tr, remap=function(x)x, nsep="\n") {
  nl <- remap(labels(tr)[-1])
  names(nl) <- paste(to, fr, sep="~")
  attr(G,"edgeLabels") <- as.list(nl)
- G
+ updateGraph(G)
 }
  
 .plotAsGraph <- function(x,remap=function(x)x,...) {

@@ -3,9 +3,8 @@
 \alias{rpart2gNEL}
 \alias{grabSplitV}
 \alias{remapAff}
-\title{convert an rpart object to a graphNEL instance   }
-\description{
-}
+\title{Convert an rpart object to a graphNEL instance}
+\description{Converts an rpart object to a graphNEL instance.}
 \usage{
 rpart2gNEL(tr, remap=function(x) x, nsep="\n")
 }
