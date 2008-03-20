@@ -44,7 +44,7 @@ rpart2gNEL <- function(tr, remap=function(x)x, nsep="\n") {
          ":", as.character(r0(an(f$yval2[,3]))), ")",sep=""))
  nds <- paste(vote, nds, sep=nsep) 
  G <- new("graphNEL", nodes=nds)
- G@graphData$edgemode <- "directed"
+ edgemode(G) <- "directed"
 #
 # now we start to derive graph topology
 # a binary enumeration is used in rpart
