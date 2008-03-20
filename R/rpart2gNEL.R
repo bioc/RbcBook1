@@ -64,15 +64,15 @@ rpart2gNEL <- function(tr, remap=function(x)x, nsep="\n") {
     G, 1)
  nl <- remap(labels(tr)[-1])
  names(nl) <- paste(to, fr, sep="~")
- attr(G,"edgeLabels") <- as.list(nl)
- updateGraph(G)
+ attr(G@edgeData@data,"edgeLabels") <- as.list(nl)
+ G
 }
  
 .plotAsGraph <- function(x,remap=function(x)x,...) {
 # defunct -- it would be nice to use Rgraphviz at high level
 # but not ready yet
  tmp <- rpart2gNEL(x,remap=remap)
- plot(tmp, edgeAttrs=list(label=attr(tmp,"edgeLabels")),...)
+ plot(tmp, edgeAttrs=list(label=attr(tmp@edgeData@data,"edgeLabels")),...)
 }
 
 grabSplitV <- function(g,use="%") {
