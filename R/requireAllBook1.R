@@ -1,8 +1,8 @@
 
 .RbcBook1.pkgs = function() c(
   "affycomp", "affydata", "affypdnn", "affyPLM", "ALL", "ALLMLL",
-"AnnBuilder", "AmpAffyExample", "annaffy", "arrayMagic",
-"arrayQuality", "beta7", "bioDist", "cMAP", "CoCiteStats", "convert",
+"AnnBuilder", "AmpAffyExample", "annaffy", "arrayQuality",
+"beta7", "bioDist", "cMAP", "CoCiteStats", "convert",
 "e1071", "edd", "estrogen", "exactRankTests", "facsDorit",
 "factDesign", "gbm", "gcrma", "golubEsets", "GOstats", "gpls",
 "graph", "hexbin", "hgu133a", "hgu133acdf", "hgu133bcdf", "hgu95av2",
