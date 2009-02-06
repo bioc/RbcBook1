@@ -41,7 +41,7 @@ checkPackage(files = .RbcBook1Files(ext=".Rnw"),
   \code{checkVerbatimLines} sees whether all verbatim lines have length
   at most \code{maxc}.
 
-  \code{checkPackage} finds all the occurences of \\Rpackage{...}
+  \code{checkPackage} finds all the occurences of \\Rpackage\{...\}
   in the text, checks whether the package is known, and returns a named
   list will all occurences of the packages.
   
