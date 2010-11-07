@@ -8,3 +8,4 @@ Depends: Biobase, graph
 License: Artistic-2.0
 URL: http://www.biostat.harvard.edu/~carey
 LazyLoad: no
+biocViews: Infrastructure
