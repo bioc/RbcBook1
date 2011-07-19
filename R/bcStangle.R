@@ -40,7 +40,7 @@ function(files = .RbcBook1Files(), outfile= "bioCSpringer.R") {
     chunkname = paste("## chunk ", 1:length(chunkname), ": ", chunkname, sep="")
       
     ## write
-    writeLines(c(seplin, paste("##", txt[grep("chapter{", txt, extended=FALSE)]),
+    writeLines(c(seplin, paste("##", txt[grep("chapter{", txt)]), # VJC 2011, extended=FALSE)]),
                seplin), con)
     chks = mapply(chunkfun, chunkname, i1, i2, is.evaluated)
     lapply(chks, writeLines, con=con)

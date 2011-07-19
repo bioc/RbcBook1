@@ -86,7 +86,7 @@ function(files = .RbcBook1Files(), verbose=TRUE, stopOnError=FALSE) {
         text = I("'@' followed by text.")))
     
     ## are there any lines with '\caption' and '%' and more text thereafter?
-    i = grep("caption.*%.*[a-zA-Z]", txt, extended=FALSE)
+    i = grep("caption.*%.*[a-zA-Z]", txt) # VJC 7-19-2011, extended=FALSE)
     if(length(i)>0)
       rv = rbind(rv, data.frame(
         file = I(f),
@@ -164,12 +164,12 @@ checkPackage = function(files = .RbcBook1Files(ext=".Rnw"), verbose=TRUE) {
       ## the following is to break up into invidual words - otherwise we
       ## would only find first occurence in each line
       txt = unlist(strsplit(txt, "[ ,.]"))
-      ## re  = regexpr("Rpackage{.*}", txt, extended=FALSE) 
+      ## re  = regexpr("Rpackage{.*}", txt) # VJC , extended=FALSE) 
       ## this is more specific, but somehow I didn't get it to work:
       re  = regexpr("Rpackage.[a-zA-Z0-9]+.", txt)
       hit = (re>0)
       p = substr(txt[hit], start=re[hit], stop=re[hit]+attr(re, "match.length")[hit]-1)
-      p = sub("Rpackage{", "", sub("}", "", unique(p), extended=FALSE), extended=FALSE)
+      p = sub("Rpackage{", "", sub("}", "", unique(p))) # VJC, extended=FALSE), extended=FALSE)
       mt   = match(p, names(pkg))
        if(any(is.na(mt))) {
         cat(paste(f, ": invalid package name:", p[is.na(mt)], "\n"))
