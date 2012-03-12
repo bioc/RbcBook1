@@ -1,10 +1,10 @@
 Package: RbcBook1
-Version: 1.23.1
+Version: 1.23.2
 Title: Support for Springer monograph on Bioconductor
 Author: Vince Carey <stvjc@channing.harvard.edu> and Wolfgang Huber <huber@ebi.ac.uk>
 Maintainer: Vince Carey <stvjc@channing.harvard.edu>
 Description: tools for building book
-Depends: R (>= 2.10), Biobase, graph
+Depends: R (>= 2.10), Biobase, graph, rpart
 License: Artistic-2.0
 URL: http://www.biostat.harvard.edu/~carey
 biocViews: Software
